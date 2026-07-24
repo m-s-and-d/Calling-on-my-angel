@@ -17,7 +17,8 @@ button.addEventListener("click", () => {
 
         angelScreen.style.opacity = "1";
         angelScreen.style.pointerEvents = "auto";
-
+        
+        document.body.style.overflowY = "auto";
 
         const angelContent = document.querySelector(".angel-content");
 
