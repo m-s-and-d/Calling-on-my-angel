@@ -294,7 +294,9 @@ button:hover {
     transform 3s ease;
 
     margin-top: 35vh;
-
+    
+margin-bottom: 200px;
+    
 }
 
 
@@ -307,7 +309,7 @@ button:hover {
     letter-spacing: 2px;
 
     margin: 25px 0;
-
+    
 }
 
 
@@ -605,12 +607,4 @@ button:hover {
         transparent 65%
     );
 
-}
-.date-panel {
-    min-height: 100vh;
-}
-
-
-.chapter-one {
-    padding-top: 250px;
 }
