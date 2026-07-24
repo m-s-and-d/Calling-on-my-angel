@@ -152,6 +152,8 @@ button:hover {
 
     transition: opacity 3s ease;
 
+    padding-top: 20vh;
+
 }
 
 
@@ -166,6 +168,8 @@ button:hover {
     transition: 
     opacity 3s ease,
     transform 3s ease;
+
+    padding-top: 25vh;
 
 }
 
