@@ -137,3 +137,48 @@ button:hover {
     }
 
 }
+.angel-screen {
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+    radial-gradient(circle, #1b1b2f, #050505);
+
+    opacity: 0;
+
+    pointer-events: none;
+
+}
+
+
+.angel-content {
+
+    text-align: center;
+
+}
+
+
+.angel-content h2 {
+
+    font-size: 42px;
+
+    font-weight: 300;
+
+    margin: 25px 0;
+
+}
+
+
+.angel-content p {
+
+    opacity: 0.6;
+
+    letter-spacing: 2px;
+
+}
