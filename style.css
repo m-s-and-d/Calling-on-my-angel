@@ -421,3 +421,42 @@ button:hover {
     }
 
 }
+.date-panel {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.date {
+
+    font-size: 32px;
+
+    letter-spacing: 4px;
+
+    font-weight: 300;
+
+}
+
+
+.date-small {
+
+    margin-top: 20px;
+
+    font-size: 14px;
+
+    opacity: 0.5;
+
+    letter-spacing: 3px;
+
+}
