@@ -20,11 +20,15 @@ button.addEventListener("click", () => {
 
 
         angelScreen.style.opacity = "1";
+angelScreen.style.pointerEvents = "auto";
 
-        angelScreen.style.pointerEvents = "auto";
+setTimeout(() => {
 
+    document.querySelector(".angel-content").style.opacity = "1";
 
-    }, 2000);
+    document.querySelector(".angel-content").style.transform = "translateY(0)";
+
+}, 500);
 
 
 });
