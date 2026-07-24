@@ -199,3 +199,30 @@ button:hover {
     letter-spacing: 2px;
 
 }
+.story {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 0 30px;
+
+}
+
+
+.story p {
+
+    font-size: 22px;
+
+    line-height: 1.8;
+
+    font-weight: 300;
+
+}
+
+
+.space {
+
+    height: 70vh;
+
+}
