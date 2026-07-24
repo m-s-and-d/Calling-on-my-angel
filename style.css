@@ -226,4 +226,21 @@ button:hover {
 
     font-weight: 300;
 
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    transition: 
+    opacity 1.8s ease,
+    transform 1.8s ease;
+
+}
+
+
+.panel p.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
 }
