@@ -460,3 +460,42 @@ button:hover {
     letter-spacing: 3px;
 
 }
+.chapter {
+
+    width: 100%;
+
+}
+
+
+.chapter-title {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    font-size: 30px;
+
+    letter-spacing: 5px;
+
+}
+
+
+.chapter-title span {
+
+    font-size: 14px;
+
+    opacity: 0.5;
+
+    margin-top: 20px;
+
+    letter-spacing: 3px;
+
+}
