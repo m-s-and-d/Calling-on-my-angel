@@ -222,11 +222,11 @@ button:hover {
 
     position: absolute;
 
-    width: 500px;
+    width: 600px;
 
-    height: 500px;
+    height: 600px;
 
-    top: -150px;
+    top: -250px;
 
     left: 50%;
 
@@ -235,11 +235,34 @@ button:hover {
     background:
     radial-gradient(
         circle,
-        rgba(255,255,255,0.12),
-        transparent 70%
+        rgba(220,225,255,0.18),
+        transparent 65%
     );
 
-    filter: blur(30px);
+    filter: blur(40px);
+
+    animation: moonGlow 8s infinite alternate;
+
+}
+
+
+@keyframes moonGlow {
+
+    from {
+
+        opacity: 0.5;
+
+        transform: translateX(-50%) scale(1);
+
+    }
+
+    to {
+
+        opacity: 0.9;
+
+        transform: translateX(-50%) scale(1.1);
+
+    }
 
 }
 
@@ -249,6 +272,12 @@ button:hover {
     position: relative;
 
     z-index: 2;
+
+}
+
+.particles {
+
+    z-index: 1;
 
 }
 
@@ -339,5 +368,56 @@ button:hover {
     opacity: 1;
 
     transform: translateY(0);
+
+}
+.particles {
+
+    position: absolute;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+
+}
+
+
+.particles::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image:
+    radial-gradient(circle, rgba(255,255,255,0.4) 1px, transparent 2px);
+
+    background-size:
+    170px 200px;
+
+    animation: floatDust 15s linear infinite;
+
+    opacity: 0.25;
+
+}
+
+
+@keyframes floatDust {
+
+    from {
+
+        transform: translateY(0);
+
+    }
+
+    to {
+
+        transform: translateY(-120px);
+
+    }
 
 }
