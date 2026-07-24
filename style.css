@@ -193,6 +193,28 @@ button:hover {
     opacity: 0.35;
 
 }
+.angel-screen::before {
+
+    animation: stars 8s infinite alternate;
+
+}
+
+
+@keyframes stars {
+
+    from {
+
+        opacity: 0.25;
+
+    }
+
+    to {
+
+        opacity: 0.45;
+
+    }
+
+}
 .angel-screen::after {
 
     content: "";
