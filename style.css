@@ -499,3 +499,49 @@ button:hover {
     letter-spacing: 3px;
 
 }
+.chapter-one {
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(90,100,160,0.15),
+        transparent 60%
+    );
+
+}
+
+
+.chapter-two {
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(140,120,180,0.18),
+        transparent 60%
+    );
+
+}
+
+
+.chapter-three {
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(170,140,160,0.22),
+        transparent 60%
+    );
+
+}
+
+
+.chapter-four {
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(220,220,255,0.25),
+        transparent 65%
+    );
+
+}
