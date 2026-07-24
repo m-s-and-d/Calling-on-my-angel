@@ -1,3 +1,4 @@
+console.log("JS works");
 const button = document.getElementById("enterButton");
 
 const firstScreen = document.querySelector(".project-screen");
