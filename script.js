@@ -21,7 +21,10 @@ button.addEventListener("click", () => {
 
         angelScreen.style.opacity = "1";
 angelScreen.style.pointerEvents = "auto";
-
+window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+});
 setTimeout(() => {
 
     document.querySelector(".angel-content").style.opacity = "1";
