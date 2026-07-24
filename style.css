@@ -176,11 +176,21 @@ button:hover {
     inset: 0;
 
     background-image:
-    radial-gradient(circle, white 1px, transparent 1px);
+        radial-gradient(circle, rgba(255,255,255,0.8) 1px, transparent 1.5px),
+        radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px),
+        radial-gradient(circle, rgba(180,190,255,0.7) 1.5px, transparent 2px);
 
-    background-size: 80px 80px;
+    background-size:
+        97px 113px,
+        151px 137px,
+        223px 191px;
 
-    opacity: 0.12;
+    background-position:
+        20px 40px,
+        80px 10px,
+        130px 90px;
+
+    opacity: 0.35;
 
 }
 .angel-screen::after {
