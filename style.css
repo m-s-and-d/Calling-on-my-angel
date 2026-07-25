@@ -462,6 +462,23 @@ margin-bottom: 200px;
     letter-spacing: 3px;
 
 }
+
+.truth{
+    text-align:center;
+    padding:120px 25px 160px;
+}
+
+.truth-main{
+    font-size:28px;
+    font-weight:300;
+    margin-bottom:25px;
+}
+
+.truth-sub{
+    font-size:16px;
+    line-height:2;
+    opacity:0.65;
+}
 .chapter {
 
     width: 100%;
